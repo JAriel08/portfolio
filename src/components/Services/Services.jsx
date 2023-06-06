@@ -4,7 +4,7 @@ import "../Services/services.css";
 
 const Services = () => {
     return (
-        <section className='services-section '>
+        <section className='services-section' id='services'>
             <div className="services-container">
                 <div className='services-title' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                     <span>MY <span className='highlight'>SERVICES</span></span>

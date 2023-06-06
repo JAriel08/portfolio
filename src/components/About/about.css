@@ -109,6 +109,25 @@
     /* height: 700px; */
     /* border: 1px solid white; */
     transform: translateY(-20px);
+    animation-name: move;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    15% {
+        transform: translateY(-10px);
+    }
+    45% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+
 }
 .about-skills {
     width: 100%;

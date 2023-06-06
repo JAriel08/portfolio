@@ -24,7 +24,7 @@ const About = () => {
                             </span>
                         </div>
                         <div className="about-button">
-                            <a href='#'><button>Hire Me!</button></a>
+                            <a href='#connect'><button>Hire Me!</button></a>
                         </div>
                     </div>
                     <div className="about-image" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800">

@@ -2,7 +2,7 @@ import React from 'react';
 import "./hero.css";
 import {FaFacebookF, FaGithub, FaLinkedinIn} from "react-icons/fa";
 import CV from "../Hero/assets/portfolio.pdf";
-import Aos from 'aos';
+import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
     return (
@@ -11,7 +11,15 @@ const Hero = () => {
                 <div className="hero-text" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
                     <span>Welcome I'M</span>
                     <span>John Ariel Lalap</span>
-                    <span>And I'm a <span className='bold'>Front-End Developer</span></span>
+                    <span>And I'm a 
+                        
+                    <Typewriter
+                            words={[ ' Front-End Developer']}
+                            loop={1}
+                            typeSpeed={100}
+                            delaySpeed={2000}
+                        />
+                    </span>
                 </div>
                 <div className="hero-socials" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800">
                     <a href="https://www.facebook.com/ariel.lalap"><FaFacebookF className='hero-social-item'/></a>

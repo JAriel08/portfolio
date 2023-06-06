@@ -70,6 +70,12 @@ form button {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
+    /* cursor: pointer; */
+}
+#disabled {
+    cursor: not-allowed;
+}
+#not-disabled {
     cursor: pointer;
 }
 form button:hover {

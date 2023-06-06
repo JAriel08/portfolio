@@ -5,7 +5,7 @@ import ProjectWorks from './ProjectWorks';
 
 const Projects = () => {
     return (
-        <section className='project-section'>
+        <section className='project-section' id='projects'>
             <div className="project-container">
                 <div className='project-header' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                     <span>MY <span className='highlight'>PROJECTS</span></span>
