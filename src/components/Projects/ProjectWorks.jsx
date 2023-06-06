@@ -7,7 +7,6 @@ const ProjectWorks = ({image, name, technologies, description, links}) => {
 
     const [showModal, setShowModal] = useState(false);
 
-
     return (
         <>
         <div className='my-works'>
@@ -21,28 +20,29 @@ const ProjectWorks = ({image, name, technologies, description, links}) => {
 
         {/* Modal */}
             {showModal && (
-                <div className="modal-container">
-                    <div className='modal'>
-                        <div className="modal-image">
-                            <img src={image} alt={name} />
+                    <div className="modal-container" id='modal'>
+                        <div className='modal'>
+                            <div className="modal-image">
+                                <img src={image} alt={name} />
+                            </div>
+                            <div className='modal-title'>
+                                <span>{name}</span>
+                            </div>
+                            <div className="modal-desc">
+                                <span>{description}</span>
+                            </div>
+                            <div className="modal-links">
+                                <span>{links}</span>
+                            </div>
+                            <div className="modal-technologies">
+                                <span>{technologies}</span>
+                            </div>
                         </div>
-                        <div className='modal-title'>
-                            <span>{name}</span>
-                        </div>
-                        <div className="modal-desc">
-                            <span>{description}</span>
-                        </div>
-                        <div className="modal-links">
-                            <span>{links}</span>
-                        </div>
-                        <div className="modal-technologies">
-                            <span>{technologies}</span>
+                        <div className='close'>
+                            <FaTimes className='close-logo' onClick={() => setShowModal(false)}/>
                         </div>
                     </div>
-                    <div className='close'>
-                        <FaTimes className='close-logo' onClick={() => setShowModal(false)}/>
-                    </div>
-                </div>
+                
             )}
         </>
     )

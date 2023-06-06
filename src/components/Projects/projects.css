@@ -108,7 +108,7 @@
 .modal-container {
     position: absolute;
     /* top: -1px; */
-    width: 90%;
+    width: 100%;
     height: 60%;
     background-color: #222831;
     z-index: 11;
@@ -132,12 +132,12 @@
     color: #EEEEEE;
 }
 .modal-image {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 .modal-image img {
     width: 100%;
-    padding: 20px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
 }
 .modal-title {
     /* border: 1px solid white; */
