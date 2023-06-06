@@ -1,0 +1,108 @@
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Hero/assets/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* animation-name: blur;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    transition: all 1s ease; */
+}
+/* @keyframes blur {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
+.hero-container {
+    width: 80%;
+    max-width: 1080px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.hero-text {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+.hero-text span:nth-child(2) {
+    color: #32E0C4;
+    font-size: 5rem;
+}
+.hero-text span:nth-child(1), .hero-text span:nth-child(3) {
+    font-size: 2rem;
+}
+.hero-text .bold{
+    font-weight: 900;
+}
+.hero-socials {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 70px;
+}
+.hero-socials a {
+    color: #EEEEEE;
+}
+.hero-social-item {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.hero-social-item:hover {
+    color: #32E0C4;
+    scale: 1.3;
+    transition: all 0.3s ease-in-out;
+} 
+.hero-button {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-button button {
+    padding: 5px 10px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 3px solid #32E0C4;
+    outline: none;
+    cursor: pointer;
+    color: #32E0C4;
+    position: relative;
+}
+.hero-button button::before, .hero-button button::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: inherit;
+    transition: all 0.5s ease-in-out;
+}
+.hero-button button::before {
+    top: -10px;
+    left: -10px;
+    border-width: 3px 0 0 3px;
+}
+.hero-button button::after {
+    bottom: -10px;
+    right: -10px;
+    border-width: 0 3px 3px 0;
+}
+.hero-button button:hover::before, .hero-button button:hover::after {
+    width: calc(100% + 17px);
+    height: calc(100% + 17px);
+}
