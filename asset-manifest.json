@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.78005ef6.css",
-    "main.js": "/portfolio/static/js/main.1e1f6c0f.js",
+    "main.css": "/portfolio/static/css/main.c03ab805.css",
+    "main.js": "/portfolio/static/js/main.298f3ddb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bitebuddy.png": "/portfolio/static/media/bitebuddy.bcdddb6b6a3f41873e79.png",
     "static/media/ballerbootcamp.png": "/portfolio/static/media/ballerbootcamp.7e509f6ccd8ff279f89a.png",
-    "static/media/portfolio.pdf": "/portfolio/static/media/portfolio.e1dcd687e04bd40befd1.pdf",
+    "static/media/kdd.png": "/portfolio/static/media/kdd.cb4018fc54c226e92929.png",
     "static/media/JAL.png": "/portfolio/static/media/JAL.30c2fc527d5ccf689eb3.png",
+    "static/media/Resume_Lalap.pdf": "/portfolio/static/media/Resume_Lalap.7613a5a3d8d96e27979d.pdf",
     "static/media/hero.jpg": "/portfolio/static/media/hero.7040e831f569be9ce1b2.jpg",
-    "static/media/rock-paper-scissor.png": "/portfolio/static/media/rock-paper-scissor.d315894288ffd623762d.png",
+    "static/media/rock-paper-scissor.png": "/portfolio/static/media/rock-paper-scissor.c4a8950f79bfa0545cf3.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.24f52e1aa411cc9c5e1e.png",
     "index.html": "/portfolio/index.html",
-    "main.78005ef6.css.map": "/portfolio/static/css/main.78005ef6.css.map",
-    "main.1e1f6c0f.js.map": "/portfolio/static/js/main.1e1f6c0f.js.map",
+    "main.c03ab805.css.map": "/portfolio/static/css/main.c03ab805.css.map",
+    "main.298f3ddb.js.map": "/portfolio/static/js/main.298f3ddb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78005ef6.css",
-    "static/js/main.1e1f6c0f.js"
+    "static/css/main.c03ab805.css",
+    "static/js/main.298f3ddb.js"
   ]
 }
