@@ -1,7 +1,7 @@
 import React from 'react';
 import "./hero.css";
 import {FaFacebookF, FaGithub, FaLinkedinIn} from "react-icons/fa";
-import CV from "../Hero/assets/portfolio.pdf";
+import CV from "../Hero/assets/Resume_Lalap.pdf";
 import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
@@ -13,18 +13,18 @@ const Hero = () => {
                     <span>John Ariel Lalap</span>
                     <span>And I'm a 
                         
-                    <Typewriter
+                    <Typewriter className="bold"
                             words={[ ' Front-End Developer']}
-                            loop={1}
+                            loop={Infinity}
                             typeSpeed={100}
-                            delaySpeed={2000}
+                            delaySpeed={3000}
                         />
                     </span>
                 </div>
                 <div className="hero-socials" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800">
                     <a href="https://www.facebook.com/ariel.lalap"><FaFacebookF className='hero-social-item'/></a>
-                    <FaGithub className='hero-social-item'/>
-                    <FaLinkedinIn className='hero-social-item'/>
+                    <a href="https://github.com/JAriel08"><FaGithub className='hero-social-item'/></a>
+                    <a href="https://www.linkedin.com/in/john-ariel-lalap-a0063b235/"><FaLinkedinIn className='hero-social-item'/></a>
                 </div>
                 <div className='hero-button' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                     <a href={CV} download="LALAP_CV"><button>Download CV</button></a>

@@ -15,6 +15,8 @@
     align-items: center;
     margin-top: 70px;
     background-color: #222831;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
 }
 .contact-title span {
@@ -24,7 +26,8 @@
 }
 .form-container {
     width: 100%;
-    height: 65%;
+    height: 72%;
+    border-radius: 7px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 form {
@@ -35,8 +38,9 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    
+    gap: 25px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 form input {
     width: 80%;
@@ -63,22 +67,103 @@ form textarea {
     font-size: 0.7rem;
     border-bottom: 3px solid black;
 }
-form button {
+.form-button {
     border: none;
     outline: none;
     background-color: #32E0C4;
-    padding: 10px 20px;
+    padding: 10px 0;
     border-radius: 5px;
     font-weight: 700;
-    /* cursor: pointer; */
+    width: 30%;
 }
+.form-button:hover {
+    background-color: #9affee;
+    transition: all 0.4s ease-in-out;
+} 
 #disabled {
     cursor: not-allowed;
+    color: #222831;
 }
 #not-disabled {
     cursor: pointer;
 }
-form button:hover {
-    background-color: #9affee;
-    transition: all 0.4s ease-in-out;
-} 
+
+/* Responsiveness */
+@media (max-width: 1255px) {
+    .contact-title span {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1043px) {
+    .contact-title span {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 916px) {
+    .contact-title span {
+        font-size: 2.3rem;
+    }
+}
+@media (max-width: 842px) {
+    .contact-title span {
+        font-size: 2.1rem;
+    }
+    .form-button {
+        padding: 10px 0;
+        width: 40%;
+    }
+}
+@media (max-width: 770px) {
+    .contact-title span {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 735px) {
+    .contact-title span {
+        font-size: 2.8rem;
+    }
+    .form-button {
+        padding: 10px 0;
+        width: 25%;
+    }
+}
+@media (max-width: 515px) {
+    .contact-title span {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 460px) {
+    .contact-title span {
+        font-size: 2.2rem;
+    }
+    form input {
+        width: 80%;
+        padding: 12px 8px;
+        font-size: 0.5rem;
+    }
+    form textarea {
+        height: 20%;
+        border-radius: 5px;
+        padding: 12px 8px;
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 405px) {
+    .contact-title span {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 369px) {
+    .contact-title span {
+        font-size: 1.8rem;
+    }
+    .form-button {
+        padding: 10px 0;
+        width: 30%;
+    }
+}
+@media (max-width: 332px) {
+    .contact-title span {
+        font-size: 1.6rem;
+    }
+}

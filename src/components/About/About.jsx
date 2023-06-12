@@ -7,11 +7,11 @@ const About = () => {
     return (
         <section className='about-section' id='about'>
             <div className="about-container">
+                <div className="title">
+                    <span>WHO AM I?</span>
+                </div>
                 <div className="about-me">
                     <div className="about-text" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
-                        <div className="title">
-                            <span>WHO AM I?</span>
-                        </div>
                         <div className="description">
                             <span>
                                 Hi, I am John Ariel Lalap and I am a Front-End Developer who specializes in HTML, CSS, JavaScript, and React. Also, I have some basic knowledge on Back-End technologies such as Node.js, Express, and MySQL. 

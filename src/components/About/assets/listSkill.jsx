@@ -27,7 +27,7 @@ const listSkills = [
 
     {
     id: 5,
-    title: "React",
+    title: "ReactJS",
     logo: <FaReact/>
     },
 

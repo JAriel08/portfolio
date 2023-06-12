@@ -12,7 +12,7 @@ const Connect = () => {
                     </div>
                     <div className='connect-text'> 
                         <div className='desc'>
-                            <span>Your final impact statement goes here. Let’s work together and  make it memorable!</span>
+                            <span>Redefining the web experience with bold design and flawless functionality – your digital success starts here.</span>
                         </div>
                         <div className='text-contact'>
                             <div className="contact-item">
