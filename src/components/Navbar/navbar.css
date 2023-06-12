@@ -62,17 +62,17 @@ header {
         position: absolute;
         top: 70px;
         right: 0;
-        opacity: 1;
+        transform: translateX(0px);
         background-color: #222831;
         width: 100%;
         height: auto;
         justify-content: center;
-        transition: all 0.3s ease;
+        transition: all 0.5s ease;
     }
     .fa-bars {
         display: block;
     }
     #hidden {
-        opacity: 0;
+        transform: translateX(-100%);
     }
 }
