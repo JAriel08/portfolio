@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.84dbd3d2.css",
-    "main.js": "/portfolio/static/js/main.298f3ddb.js",
+    "main.css": "/portfolio/static/css/main.d6e83e86.css",
+    "main.js": "/portfolio/static/js/main.6b87bc89.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bitebuddy.png": "/portfolio/static/media/bitebuddy.bcdddb6b6a3f41873e79.png",
+    "static/media/to-do-list-app.png": "/portfolio/static/media/to-do-list-app.87e4c9d5adfd3e9c394a.png",
     "static/media/ballerbootcamp.png": "/portfolio/static/media/ballerbootcamp.7e509f6ccd8ff279f89a.png",
     "static/media/kdd.png": "/portfolio/static/media/kdd.cb4018fc54c226e92929.png",
     "static/media/JAL.png": "/portfolio/static/media/JAL.30c2fc527d5ccf689eb3.png",
@@ -12,12 +13,12 @@
     "static/media/rock-paper-scissor.png": "/portfolio/static/media/rock-paper-scissor.c4a8950f79bfa0545cf3.png",
     "static/media/logo.png": "/portfolio/static/media/logo.24f52e1aa411cc9c5e1e.png",
     "index.html": "/portfolio/index.html",
-    "main.84dbd3d2.css.map": "/portfolio/static/css/main.84dbd3d2.css.map",
-    "main.298f3ddb.js.map": "/portfolio/static/js/main.298f3ddb.js.map",
+    "main.d6e83e86.css.map": "/portfolio/static/css/main.d6e83e86.css.map",
+    "main.6b87bc89.js.map": "/portfolio/static/js/main.6b87bc89.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84dbd3d2.css",
-    "static/js/main.298f3ddb.js"
+    "static/css/main.d6e83e86.css",
+    "static/js/main.6b87bc89.js"
   ]
 }
