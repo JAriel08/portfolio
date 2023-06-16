@@ -1,23 +1,18 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import About from './components/About/About';
-import Services from './components/Services/Services';
-import Projects from './components/Projects/Projects';
-import Connect from './components/Connect/Connect';
-import Footer from './components/Footer/Footer';
+import Homepage from './pages/Homepage';
+import AllProjectsPage from './pages/AllProjects/AllProjectsPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <Projects/>
-      <Connect/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/portfolio' element={<Homepage/>}/>
+          <Route path='/allprojects' element={<AllProjectsPage/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )   
 }

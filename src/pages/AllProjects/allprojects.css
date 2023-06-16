@@ -1,0 +1,197 @@
+.all-projects-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #393E46;
+    position: relative;
+    animation-name: show;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.8s;
+}
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.all-projects-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.return-homepage {
+    width: 20%;
+    height: 8%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.back {
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+.return-homepage button {
+    background-color: transparent;
+    color: #32E0C4;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.return-homepage button:hover {
+    color: #6dfce4;
+    scale: 1.05;
+    transition: all 0.4s ease-in-out;
+}
+.all-projects-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-projects-title span {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #EEEEEE;
+}
+.all-projects-title .colored {
+    color: #32E0C4;
+}
+.my-projects-container {
+    width: 100%;
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.my-project-container {
+    position: relative;
+    width: 30%;
+    height: 180px;
+    margin: 0 15px;
+}
+.my-project-container:hover .see-more-button button {
+    display: block;
+    
+}
+.my-project-container:hover .my-project-image{
+    opacity: 0.4;
+    transition: all 0.4s ease-in-out;
+    
+}
+.my-project-image {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.50);
+    
+}
+.my-project-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.see-more-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.see-more-button button {
+    border: none;
+    outline: none;
+    background-color: #32E0C4;
+    padding: 8px 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    display: none;
+}
+.see-more-button button:hover {
+    background-color: #6dfce4;
+    transition: all 0.4s ease-in-out;
+}
+
+
+/* All Projects Modal */
+.all-projects-modal {
+    z-index: 99;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    box-shadow: 0px 5px 20px rgba(0.5, 0, 0, 0.50);
+    opacity: 0;
+    transform: translateX(-100%);
+        transition: all 0.4s ease-in-out;
+        border-radius: 10px;
+        
+}
+#show {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.4s ease-in-out;
+}
+
+.all-projects-modal-container {
+    width: 100%;
+    height: 100%;
+    background-color: #222831;
+    border-radius: 10px;
+}
+.all-projects-modal-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 10px 0;
+    
+}
+.all-projects-modal-image img {
+    width: 35%;
+    border-radius: 10px;
+}
+.all-projects-modal-name {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #EEEEEE;
+}
+.all-projects-modal-desc {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 0.8rem;
+}
+.all-projects-modal-links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-projects-modal-tech {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.close-all-projects-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.7rem;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+.close-all-projects-modal:hover {
+    scale: 1.1;
+    transition: all 0.4s ease-in-out;
+}

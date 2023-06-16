@@ -13,14 +13,14 @@ const ProjectWorks = ({image, name, technologies, description, links}) => {
             <div className='works-container'>
                 <img src={image} alt="project" className='image'/>
                 <div className='info'>
-                    <button type='button' className='button' onClick={() => setShowModal(!showModal)}>See More</button>
+                    <a href="#projectHeader"><button type='button' className='button' onClick={() => setShowModal(!showModal)}>See More</button></a>
                 </div>
             </div>
         </div>
 
         {/* Modal */}
-            {showModal && (
-                    <div className="modal-container" id='modal'>
+            
+                    <div className="modal-container" id={showModal ? "showModal" : ""}>
                         <div className='modal'>
                             <div className="modal-image">
                                 <img src={image} alt={name} />
@@ -39,11 +39,10 @@ const ProjectWorks = ({image, name, technologies, description, links}) => {
                             </div>
                         </div>
                         <div className='close'>
-                            <FaTimes className='close-logo' onClick={() => setShowModal(false)}/>
+                            <FaTimes className='close-logo' onClick={() => setShowModal(!showModal)}/>
                         </div>
                     </div>
                 
-            )}
         </>
     )
 }
